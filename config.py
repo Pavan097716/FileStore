@@ -18,13 +18,13 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7941316435:AAHPHLFLaxnUaNEGlx52hycR7yM0DTD-9jE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7726655221:AAEvur_84DfuzzvbcXedWYvRtyLxo3nlEtw")
 APP_ID = int(os.environ.get("APP_ID", "20793620")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "a712d2b8486f26c4dee5127cc9ae0615") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002690119804")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Hunter") # Owner username without @
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002582091489")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "Otakukart7") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "6853851676")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
@@ -32,7 +32,7 @@ PORT = os.environ.get("PORT", "8001")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://pokemonchannel098:yaE7BvFwWIXdb3HQ@cluster0.gdr57.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
-FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
+FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/weoo_chats")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
